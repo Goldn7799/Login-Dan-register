@@ -34,8 +34,9 @@ if (isset($_POST['submit'])) {
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://kit.fontawesome.com/e330da5781.js" crossorigin="anonymous"></script>
 
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="./style.css">
 
 	<title>Murah Senyum</title>
 </head>
@@ -53,6 +54,10 @@ if (isset($_POST['submit'])) {
 				<button name="submit" class="btn">Login</button>
 			</div>
 			<p class="login-register-text">Don't have an account? <a href="register.php">Register Here</a>.</p>
+			<center>
+			<i class="fa-brands fa-facebook-f fa-xl fb-login-icon"></i>
+			</center>
+			<canvas height="10"></canvas>
 		</form>
 	</div>
 </body>
